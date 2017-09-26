@@ -1,0 +1,39 @@
+{
+  "name": "react-signin-native",
+  "version": "0.1.2",
+  "description": "react-signin for react-native",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "redux-signin": "file:../redux-signin"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "nwb": "0.18.x"
+  },
+  "author": "Mark Zepeda <markzepedajr@gmail.com> (https://github.com/markario)",
+  "homepage": "",
+  "license": "MIT",
+  "repository": "",
+  "keywords": [
+    "react-component"
+  ]
+}
