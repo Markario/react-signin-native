@@ -1,6 +1,6 @@
 {
   "name": "react-signin-native",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "react-signin for react-native",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -22,7 +22,7 @@
     "axios": "^0.16.2",
     "react-redux": "^5.x",
     "redux": "^3.x",
-    "redux-signin": "^0.1.6"
+    "redux-signin": "^0.1.7"
   },
   "peerDependencies": {
     "react": "*",

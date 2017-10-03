@@ -5256,9 +5256,9 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^0.4.2"
 
-redux-signin@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/redux-signin/-/redux-signin-0.1.6.tgz#c74620f8ff4a8073cc864aec231a238c86d79cb7"
+redux-signin@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/redux-signin/-/redux-signin-0.1.7.tgz#b3f8abc46a0a5643c7f70d51f7b0fdcd967aef9f"
   dependencies:
     lodash "^4.x"
 
